@@ -1,2 +1,0 @@
-# Dell_Language_Model_Project
-The aim of this project is to assist Dell Technical Support teams by reading initial emails from clients and classifying their technical issue as either ‘software’ (sw) or ‘hardware’ (hw) related problem. After using a pre-trained language model (WikiText103) we fine-tune this language model to predict the next occuring word in a Dell email. It is hoped that this new language model will acquire terminology specific to Dell emails and assist in the final binary classification. We use fastai and PyTorch libraries.
